@@ -18,7 +18,7 @@ const Header = ({ title, callEnabled }) => {
             </View>
 
             {callEnabled && (
-                <TouchableOpacity style={tw('rounded-full mr-4 p-3 bg-red-200')}>
+                <TouchableOpacity style={tw('rounded-full mr-4 p-3 h-auto w-auto bg-red-200')}>
                     <Foundation style={tw("")} name='telephone' size={20} color="red" />
                 </TouchableOpacity>
             )}
