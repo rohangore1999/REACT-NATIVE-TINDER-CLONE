@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "react-native-tinder-clone",
+    "name": "Tinder-Clone",
     "slug": "react-native-tinder-clone",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +24,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "host.exp.exponent"
+      "package": "tinder.app",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyCoVXW0ERFLwWytJvcVKcAUpe6xOZkvAeg",
+          "certificateHash": "07F30CC0DC6C4A4459400437BEEBD502FFBA607F"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"

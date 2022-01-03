@@ -2,6 +2,7 @@ import React, { createContext, useContext, useEffect, useMemo, useState } from '
 import { StyleSheet, Text, View } from 'react-native'
 import { GoogleAuthProvider, onAuthStateChanged, signInWithCredential, signOut } from "@firebase/auth"
 import * as Google from 'expo-google-app-auth'
+
 import { auth } from '../firebase'
 
 // AuthContext is something which will provide you the Authentication slice(like redux)
@@ -13,6 +14,9 @@ const config = {
     androidClientId: '245456058571-bcdmh3ncfp5q2jhhdu51bpoqohdt42ps.apps.googleusercontent.com',
     // from GoogleSerice-Info.plist for IOS
     iosClientId: '245456058571-3vtabhd3pm5tf2lk8atma9rp1cqnnhtv.apps.googleusercontent.com',
+    
+    androidStandaloneAppClientId: '245456058571-ch2m669m0ricaa9mcaqfjnl0g71h0osu.apps.googleusercontent.com',
+    behavior: 'web',
     scopes: ["profile", "email"],
     permissions: ["public_profile", "email", "gender", "location"]
 }
