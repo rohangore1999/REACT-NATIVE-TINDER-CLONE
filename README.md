@@ -1,5 +1,5 @@
 # REACT-NATIVE-TINDER-CLONE
 
-Build Tinder Clone using React Native Expo, Firebase with GOOGLE-AUTHENTICATION, DECK-SWIPE(Tinder Card Swipe), Firease-DB
+Build Tinder Clone using React Native Expo, Firebase with GOOGLE-AUTHENTICATION, DECK-SWIPE (Tinder Card Swipe), FIREBASE-DB
 
 Download App link (apk) ~ https://expo.dev/artifacts/eb202922-3855-4edf-9a66-011389576fd1
